@@ -1,3 +1,27 @@
+@font-face {
+  font-family: 'Arima Madurai';
+  src: url('fonts/ArimaMadurai-ExtraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Arima Madurai';
+  src: url('fonts/ArimaMadurai-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Abril Fatface';
+  src: url('fonts/AbrilFatface-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.headerclass{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/*Menu button */
 .menu {
     display: inline-block;
     cursor: pointer;
@@ -26,4 +50,38 @@
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+
+/*Footer CSS starts here*/
+.contact{
+    background: #7B7B7B;
+}
+.links{
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}
+
+body{
+  font-family: 'Arima Madurai';
+  color: #0000;
+}
+
+h2{
+  font-family: 'Abril Fatface';
+  text-align: center;
+}
+.vid{
+  padding: 0px 1px;
+  background: black;
+}
+.promovid{
+  max-width: 100%;
+  margin: 3px 0px 14px 3px;
+  align-items: center;
+  padding:1px 1px;
+}
+.services img{
+max-width: 7%;
 }

@@ -51,17 +51,7 @@
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
 }
-
-
-/*Footer CSS starts here*/
-.contact{
-    background: #7B7B7B;
-}
-.links{
-  display: inline-block;
-  padding: 10px;
-  margin: 10px;
-}
+/*CSS stle sheet starts here */
 
 body{
   font-family: 'Arima Madurai';
@@ -71,6 +61,7 @@ body{
 h2{
   font-family: 'Abril Fatface';
   text-align: center;
+  padding: 10px;
 }
 .vid{
   padding: 0px 1px;
@@ -84,4 +75,16 @@ h2{
 }
 .services img{
 max-width: 7%;
+}
+
+
+/*Footer CSS starts here*/
+.contact{
+    background: #7B7B7B;
+    text-align: center;
+}
+.links{
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
 }

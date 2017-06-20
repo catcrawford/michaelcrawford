@@ -87,26 +87,33 @@ h2{
   padding:1px 1px;
 }
 .services{
-    text-align: justify;
-    line-height: 21px;
-    text-indent: 50px;
-    box-sizing: content-box;
+  text-align: justify;
+  margin: 0em 1em;
+  padding: 1em;
+  line-height: 1.5em;
 }
 .services img{
-max-width: 7%;
+max-width: 78%;
 }
 
 ul li{
   font-weight: bold;
 }
 
-.text {
-  margin: 0;
-  text-indent: 50px;
-  display: flex;
-  flex-flow: wrap;
+.vidrec{
+display: flex;
+justify-content: space-around;
 
 }
+
+.vidEdit{
+  display: flex;
+  justify-content: space-around;
+}
+.text{
+  font-family: 'Abril Fatface';
+  color: #065A82;
+  }
 
 .workvid{
   display: flex;

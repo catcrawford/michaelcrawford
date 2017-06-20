@@ -90,28 +90,24 @@ h2{
     text-align: justify;
     line-height: 21px;
     text-indent: 50px;
+    box-sizing: content-box;
 }
 .services img{
 max-width: 7%;
 }
+
 ul li{
   font-weight: bold;
 }
-.vidrecp{
-  padding: 0 0 0 100px;
-  line-height: 21px;
-  font-size: 16px;
-  display: block;
-/*font-size: 0.67em;
--webkit-margin-before: 2.33em;
--webkit-margin-after: 2.33em;
--webkit-margin-start: 0px;*/
--webkit-margin-end: 60px;
-}
+
 .text {
-margin: 0;
+  margin: 0;
   text-indent: 50px;
+  display: flex;
+  flex-flow: wrap;
+
 }
+
 .workvid{
   display: flex;
   flex-direction: column;

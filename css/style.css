@@ -76,6 +76,7 @@ h2{
   text-align: center;
   padding: 10px;
   color: #065A82;
+  font-size: 20px;
 }
 .vid{
   padding: 0px 1px;
@@ -103,17 +104,22 @@ ul li{
 .vidrec{
 display: flex;
 justify-content: space-around;
-
+padding: 1em;
 }
 
 .vidEdit{
   display: flex;
   justify-content: space-around;
 }
-.text{
+
+.sound{
+
+}
+.
+/*.text{
   font-family: 'Abril Fatface';
   color: #065A82;
-  }
+  }*/
 
 .workvid{
   display: flex;

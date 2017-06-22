@@ -20,7 +20,14 @@
 
 .headerclass{
   background-color: #495159;
+  display: flex;
+  justify-content: space-around;
 }
+  .logo{
+    color: white;
+    font-family: 'Abril Fatface';
+    padding: 2em;
+  }
 
 .headerlist{
   color: #065A82;
@@ -106,20 +113,6 @@ display: flex;
 justify-content: space-around;
 padding: 1em;
 }
-
-.vidEdit{
-  display: flex;
-  justify-content: space-around;
-}
-
-.sound{
-
-}
-.
-/*.text{
-  font-family: 'Abril Fatface';
-  color: #065A82;
-  }*/
 
 .workvid{
   display: flex;

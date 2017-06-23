@@ -22,6 +22,7 @@
   background-color: #495159;
   display: flex;
   justify-content: space-around;
+  max-width: 100%;
 }
   .logo{
     color: white;
@@ -81,19 +82,22 @@ body{
 h2{
   font-family: 'Abril Fatface';
   text-align: center;
-  padding: 10px;
+  padding: 2em;
   color: #065A82;
   font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .vid{
   padding: 0px 1px;
 }
 .promovid{
   max-width: 100%;
-  margin: 3px 0px 14px 3px;
-  align-items: center;
+  display: block;
+  margin: 0,auto;
   padding:1px 1px;
 }
+
 .services{
   text-align: justify;
   margin: 0em 1em;
@@ -101,14 +105,10 @@ h2{
   line-height: 1.5em;
 }
 .services img{
-max-width: 78%;
+max-width: 60%;
 }
 
-ul li{
-  font-weight: bold;
-}
-
-.vidrec{
+.servicesdes{
 display: flex;
 justify-content: space-around;
 padding: 1em;
@@ -131,14 +131,37 @@ padding: 1em;
 /*Footer CSS starts here*/
 .contact{
     background: #495159;
-    text-align: center;
+    height: 100%;
 }
 .links{
   display: inline-block;
-  padding: 10px;
-  margin: 10px;
+  padding: 1em;
+  color: white;
 }
-a{
+a {
   color: white;
   text-decoration: none;
 }
+
+
+
+  @media (min-width: 600px){
+
+    .vid{
+    display: flex;
+    justify-content: center;
+  }
+
+  .services{
+    column-count: 2;
+  }
+
+.servicesdes{
+  margin-top: 1em;
+}
+}
+
+
+
+
+  }

@@ -8,9 +8,22 @@
 
       $('.menu').on('click', function(){
 
-        $(this).toggleClass('change');
+      $(this).toggleClass('change');
 
-      });
+});
 
-    //  myFunction();
-  });
+$("#my-menu").hide();
+
+$("#hamburger").click(function(e){
+
+
+
+$(this).next("#my-menu").slideToggle();
+
+});
+
+
+
+
+
+});

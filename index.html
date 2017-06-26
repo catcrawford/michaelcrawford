@@ -11,69 +11,81 @@
 
   <link rel="stylesheet" href="./css/reset.css">
 
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
   <link rel="stylesheet" href="./css/style.css">
+
   </head>
 
   <body>
+    <div id="website">
 
-<header>
+  <header>
   <div class="headerclass">
 
+<h1 class="logo">Charles Hamilton Productions </h1>
 
-
-  <div class="menu">
+  <a href="#" id="hamburger"> <div class="menu" id="menu">
     <div class="bar1"></div>
     <div class="bar2"></div>
     <div class="bar3"></div>
   </div>
+</a>
 
-
-<ul class="headerlist">
-  <li>Work</li>
-  <li>Services</li>
-  <li> <a href="about.html">About</a></li>
-</ul>
+  <nav id="my-menu" class="my-menu">
+      <ul class="listmenu">
+         <li><a href="#sertarget">Services </a></li>
+         <li><a href="about.html">About</a></li>
+         <li><a href="#work"> Work </a></li>
+          <li><a href="#contact">Contact</a></li>
+       </ul>
+  </nav>
   </div>
 </header>
-
+<!-- to center display:block, marin: 0, auto -->
 
     <div class="vid">
 <iframe class="promovid" width="560" height="315" src="https://www.youtube.com/embed/3Hcu1hywuP8" frameborder="0" allowfullscreen></iframe>
 
     </div>
 
-<h2> Services </h2>
-  <div class="services">
+<div class="servicesSec">
+
+
+<h2 id="sertarget" class="sertarget"> Services </h2>
+
+  <div class="services" id="services">
     <ul>
-  <div class="vidrec">
-    <li> <img src="css/images/videoRec.ico">  </li>
-      <span class="text"> Video Recording  <br>rofessional quality and sound in all videos blskfknhkfnn dskjcds fcjjkdc </span>
-</div>
 
-    <div class="vidrec">
+      <div class="servicesdes">
+        <li> <img src="css/images/videoRec.ico"> </li>
+        <p> <span style="font-weight: bold;"> Video Recording </span> <br>rofessional quality and sound in all videos blskfknhkfnn dskjcds fcjjkdcfsfsdfs sdc </p>
+      </div>
+
+    <div class="servicesdes">
       <li> <img src="css/images/video.ico"> </li>
-        <p class="text"> Video editing <br>  use of video programs blasdj fdnhwkdns dhsj dj dskjnxkjd cjhskjdck ckskjdccxc.</p>
-      </div>
+      <p>  <span style="font-weight: bold;"> Video editing </span> <br>  use of video programs blasdj fdnhwkdns dhsj dj dskjnxkjdcdksncdksfcks cdnksnfc dsnfcw.</p>
+    </div>
 
-      <div class="vidrec">
+      <div class="servicesdes soundp">
         <li> <img src="css/images/soundImg.ico"> </li>
-        <p> Sound design <br> logic pro cnsdcn ,nckdsjnc cskncs,ck ckdenbckbd  c knkn cskb cdb d d b dn kdvv.</p>
-        </div>
-
-        <div class="vidrec">
-        <li> <img src="css/images/music.ico"></li>
-    <p>Custom Music <br> multi instrucmented talented cnc ckndcnlcn cen e kdbcbckdsck cnxswnc  cewkcjes bcj </p>
+        <p class=""> <span style="font-weight: bold;"> Sound design </span> <br> logic pro cnsdcn ,nckdsjnc cskncs,ck ckdenbckbd  c knkn cskb cdb d d b dn kdvv.</p>
       </div>
 
-      <div class="vidrec">
+      <div class="servicesdes">
+        <li> <img src="css/images/music.ico"></li>
+        <p><span style="font-weight: bold;"> Custom Music </span> <br> multi instrucmented talented cnc ckndcnlcn cen e kdbcbckdsck cnxswnc  cewkcjes bcj </p>
+      </div>
+
+      <div class="servicesdes">
       <li> <img src="css/images/podcast.ico" alt=""></li>
-      <p>Podcast Production <br> odacsat production fast quality cnkncencnecnccsnc kecnencoec cxwbcbldscce.</p>
+      <p> <span style="font-weight: bold;"> Podcast Production </span> <br> odacsat production fast quality cnkncencnecnccsnc kecnencoec cxwbcbldscce.</p>
       </div>
     </ul>
     </div>
+</div>
 
-
-<h2> Work </h2>
+<h2 id="work"> Work </h2>
 
 <!-- add previous work videos  -->
 <div class="workvid">
@@ -89,19 +101,42 @@
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
   crossorigin="anonymous"></script>
 <script src="./javascript.js"></script>
+  </div>
   </body>
-  <footer>
-<div class="contact">
 
-<h2>Contact Us </h2>
-  <article class="links">
-  <p> <a href= "mailto:cmhcrawford@gmail.com"> CHProductions </a>
+  <footer>
+    <div class="footerdiv">
+
+        <nav>
+         <ul class="socialmedia">
+          <li>
+            <a href="https://soundcloud.com/" target="_blank"> <i class="fa fa-soundcloud" aria-hidden="true"></i><span class="socialtext"> </span></a>
+          </li>
+          <li>
+            <a href="https://twitter.com" target="_blank"> <i class="fa fa-fw fa-twitter"></i><span class="socialtext"></span>  </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i><span class="socialtext"></span></a>
+          </li>
+          <li>
+            <a href="https://facebook.com" target="_blank"> <i class="fa fa-fw fa-facebook"></i><span class="socialtext"></span> </a>
+          </li>
+        </ul>
+          </nav>
+
+
+<div class="contact" id="contact">
+
+  <p class="links"><a class="email" href= "mailto:cmhcrawford@gmail.com"> cmhcrawford@gmail.com </a>
   </p>
-  <p> <a href="tel:1-416-402-6038">416-402-6038</a>
+
+  <p class="links"><a href="tel:1-416-402-6038"> 416-402-6038</a>
   </p>
-  <p><a href="https://www.google.ca/maps/place/Toronto,+ON+M4Y+3B3/@43.6621064,-79.3866373,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34b447311295:0x2c9b176328c4bd0f!8m2!3d43.6620547!4d-79.3844795" target="_blank">Toronto, ON   M4Y 3B3</a>
+  <p class="links"><a href="https://www.google.ca/maps/place/Toronto,+ON+M4Y+3B3/@43.6621064,-79.3866373,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34b447311295:0x2c9b176328c4bd0f!8m2!3d43.6620547!4d-79.3844795" target="_blank">Toronto, ON   M4Y 3B3</a>
   </p>
-  </article>
+  <p class="copy">  ©2017 Charles Hamilton Production Co</p>
+
 </div>
+    </div>
   </footer>
 </html>

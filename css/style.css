@@ -25,29 +25,23 @@
   max-width: 100%;
 }
   .logo{
-    color: white;
+    color: #CAF7E2;
     font-family: 'Abril Fatface';
-    padding: 2em;
+    font-size: 20px;
+    padding:2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px #065A82;
   }
 
-
-/*.headerlist{
-  color: #065A82;
-  font-family: 'Abril Fatface';
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 10px;
-}*/
-/*header li{
-  padding: 15px;
-}*/
 
 
 /*Menu button */
 .menu {
     display: inline-block;
     cursor: pointer;
+    margin-top: 1em;
+    padding: 1em;
 }
 
 
@@ -75,7 +69,16 @@
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
 }
-/*CSS stle sheet starts here */
+
+.my-menu li{
+  padding: 5px;
+  font-weight: bold;
+}
+.listmenu{
+  margin: 1em;
+  margin-right: 2em;
+}
+
 
 body{
   font-family: 'Arima Madurai';
@@ -86,11 +89,13 @@ body{
 h2{
   font-family: 'Abril Fatface';
   text-align: center;
-  padding: 2em;
+  padding: 1em;
+  margin-top: 1em;
   color: #065A82;
   font-size: 20px;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  text-shadow: 2px 2px #CAF7E2;
+  letter-spacing:8px;
 }
 .vid{
   padding: 0px 1px;
@@ -101,9 +106,11 @@ h2{
   margin: 0,auto;
   padding:1px 1px;
 }
+.servicesSec{
+  background-color: #D3F8E7;
 
+}
 .services{
-  text-align: justify;
   margin: 0em 1em;
   padding: 1em;
   line-height: 1.5em;
@@ -133,39 +140,124 @@ padding: 1em;
   padding:1px 1px;
 }
 /*Footer CSS starts here*/
+.footerdiv{
+  background: #495159;
+  }
+
+  .socialmedia{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    letter-spacing:8px;
+  }
+
 .contact{
-    background: #495159;
-    height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
 }
 .links{
   display: inline-block;
-  padding: 1em;
-  color: white;
+  padding: 10px;
+  color: #CAF7E2;
+  font-weight: bold;
+  text-align: center;
+}
+.email{
+  text-decoration: underline;
+
+}
+.email:hover{
+color: #065A82;
+}
+
+.copy{
+  text-align: center;
+  color: #CAF7E2;
+  font-weight: normal;
 }
 a {
-  color: white;
+  color: #CAF7E2;
   text-decoration: none;
 }
 
+/*About page style starts here*/
+
+.bio{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.bio img{
+  height: 224px;
+  width: 80%;
+  padding: 1em;
+  box-shadow: 2px 2px;
+}
+
+.bioP{
+  padding: 1em;
+}
 
 
   @media (min-width: 600px){
 
-    .vid{
+.logo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 2em;
+  max-width: 31%;
+}
+.menu{
+  margin: 1em 0em 0em 16em;
+  max-width: 50%;
+
+}
+.listmenu{
+  margin: 2em;
+  margin-right: 2em;
+}
+  .vid{
     display: flex;
     justify-content: center;
   }
 
   .services{
     column-count: 2;
+    margin: 0 auto;
+    padding: 1em;
+
   }
 
 .servicesdes{
   margin-top: 1em;
 }
+.soundp{
+  margin-bottom: 7em;
+  }
+
+@media (min-width: 1140px){
+
+.logo{
+  max-width: 36%;
+}
+  .menu{
+    margin-left: 30em;
+  }
+
+  .listmenu{
+      margin-right: 2em;
+  }
+
+.services{
+  max-width: 54%;
 }
 
-
-
-
-  }
+.bio img{
+  height: 300px;
+  width: 90%;
+}

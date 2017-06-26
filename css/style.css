@@ -96,6 +96,8 @@ h2{
   text-transform: uppercase;
   text-shadow: 2px 2px #CAF7E2;
   letter-spacing:8px;
+  background-color: #CAF7E2;
+  max-width: 100%;
 }
 .vid{
   padding: 0px 1px;
@@ -106,10 +108,10 @@ h2{
   margin: 0,auto;
   padding:1px 1px;
 }
-.servicesSec{
+/*.servicesSec{
   background-color: #D3F8E7;
 
-}
+}*/
 .services{
   margin: 0em 1em;
   padding: 1em;
@@ -130,14 +132,15 @@ padding: 1em;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 .video{
   box-shadow: 1px 0px 5px 1px #666;
   max-width: 100%;
   margin: 3px 0px 14px 3px;
   align-items: center;
-  padding:1px 1px;
+
 }
 /*Footer CSS starts here*/
 .footerdiv{
@@ -195,13 +198,24 @@ a {
   height: 224px;
   width: 80%;
   padding: 1em;
-  box-shadow: 2px 2px;
+
 }
 
 .bioP{
   padding: 1em;
+  line-height: 1em;
 }
+.testimonials{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonials p{
+  padding: 1em;
+  line-height: 1em;
 
+}
 
   @media (min-width: 600px){
 
@@ -240,6 +254,30 @@ a {
   margin-bottom: 7em;
   }
 
+/*About styles */
+
+  .bio img{
+    height: 200px;
+    width: 42%;
+  }
+  .bio{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  .footerabout{
+     bottom:0;
+   width: 100%;
+  }
+  .testimonials{
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+  }
+  .testimonials p{
+    max-width: 50%;
+  }
+
 @media (min-width: 1140px){
 
 .logo{
@@ -256,8 +294,23 @@ a {
 .services{
   max-width: 54%;
 }
-
+/*About page styles*/
 .bio img{
   height: 300px;
-  width: 90%;
+  width: 42%;
+  margin-left: 4em;
+}
+.bioP{
+margin: 4em;
+}
+.testimonials p{
+  padding: 2em;
+}
+.footerabout{
+ margin-top: 100%;
+ bottom:0;
+ width: 100%;
+ max-height: 30%;
+}
+
 }
